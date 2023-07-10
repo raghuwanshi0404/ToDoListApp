@@ -1,0 +1,16 @@
+.navbar>.container-fluid{
+    justify-content: center;
+    font-size: 35px;
+}
+.input-group{
+    justify-content: center;
+}
+.input-group>.containerWrapper{
+    display: flex;
+    width: 100%;
+
+}
+form{
+    width: 100%;
+    display: flex;
+}

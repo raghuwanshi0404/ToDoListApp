@@ -1,0 +1,7 @@
+.is-flex {
+  display: flex;
+  flex-direction: column;
+}
+.content-main {
+  width: 80%;
+}
