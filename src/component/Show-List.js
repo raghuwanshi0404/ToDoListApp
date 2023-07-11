@@ -22,8 +22,8 @@ export default function ShowList(props) {
                             <h2 className="accordion-header">
                                 
                                 <div className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    <FaBeer onClick={() => handleDelete(item.taskId)}/>
-                                    <AiFillEdit onClick={() => handleEdit(item.taskId)}/>
+                                    <FaBeer  onClick={() => handleDelete(item.taskId)}/>
+                                    <AiFillEdit className='mx-3' onClick={() => handleEdit(item.taskId)}/>
                                     <div className='mx-5'>
                                         {item.msg}
                                     </div>
