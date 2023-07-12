@@ -36,7 +36,7 @@ export default function AddItem(props) {
             <div className="containerWrapper">
                 <form onSubmit={handleAddition}>
                     <input type="text" className="form-control" value={input} placeholder="Add ToDo List" onChange={(e) => setInput(e.target.value)} aria-label="Recipient's username" aria-describedby="button-addon2" />
-                    <button className="btn btn-outline-secondary" type="submit" id="button-addon2" >{btnName}</button>
+                    <button className="btn btn-outline-secondary mx-2" type="submit" id="button-addon2" >{btnName}</button>
                 </form>
             </div>
         </div>

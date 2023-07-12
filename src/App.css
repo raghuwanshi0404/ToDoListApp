@@ -5,3 +5,37 @@
 .content-main {
   width: 80%;
 }
+/* .btnWrapper{
+  float: right;
+  border:none
+} */
+button{
+  float: right;
+  border: none;
+  height: 36px;
+  width: 67px;
+  border: 2px solid  #ced4da;
+  border-radius: 6px;
+}
+.accordion-item{
+  height: 40px;
+  box-sizing: border-box;
+  border: 2px solid #9cb8d3;
+  border-radius: 4px;
+}
+.wrapper{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border: 2px solid #9cb8d3;
+  padding: auto;
+  border-radius: 4px;
+  
+
+}
+.b1{
+  background-color: #5a94afc7;
+}
+.b2{
+  background-color: #5a94afc7;
+}
