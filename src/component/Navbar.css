@@ -1,6 +1,9 @@
 .navbar>.container-fluid{
     justify-content: center;
     font-size: 35px;
+    height: 60px;
+    background-color: cadetblue;
+    color: black;
 }
 .input-group{
     justify-content: center;
@@ -8,9 +11,21 @@
 .input-group>.containerWrapper{
     display: flex;
     width: 100%;
+    margin-left: 11px;
 
 }
 form{
     width: 100%;
     display: flex;
+}
+span{
+    z-index: 25;
+    color: black;
+}
+.btn{
+    background-color: aliceblue;
+    width: 73px;
+}
+p{
+    padding: 4px;
 }

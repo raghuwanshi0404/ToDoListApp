@@ -40,10 +40,13 @@ function App() {
 	return (
 		<div className="container-fluid is-flex justify-content-center">
 			<Navbar />
+		<div className='conatainer'>
+			
 			<div className="container-fluid content-main">
 				<AddItem listen={getNewToDoList} updateCallBack={updateAppCallBack} editConfig={editConfigApp} />
 				<ShowList list={content} deleteFunc={deleteToDoList} editFunc={editToDoList} />
 			</div>
+		</div>
 		</div>
 	);
 }

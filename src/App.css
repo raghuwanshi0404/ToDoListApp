@@ -17,19 +17,29 @@ button{
   border: 2px solid  #ced4da;
   border-radius: 6px;
 }
+p{
+  flex-wrap: wrap;
+  height: fit-content;
+}
 .accordion-item{
-  height: 40px;
+  height: fit-content;
   box-sizing: border-box;
-  border: 2px solid #9cb8d3;
+  border: 2px solid #5a94afc7;
   border-radius: 4px;
+  width: 100%;
+ 
+  
 }
 .wrapper{
   display: flex;
   width: 100%;
   justify-content: space-between;
-  border: 2px solid #9cb8d3;
+  border: 3px solid #5a94afc7;
   padding: auto;
   border-radius: 4px;
+  flex-wrap: wrap;
+  padding: 4px;
+
   
 
 }
@@ -38,4 +48,19 @@ button{
 }
 .b2{
   background-color: #5a94afc7;
+}
+.b1:hover{
+  border: 4px solid #80808042
+}
+.b2:hover{
+  border: 4px solid #80808042
+}
+
+.container-fluid{
+  height: 100vh;
+  /* background-color: #9cb8d3; */
+}
+.conatainer{
+  height: calc(100% - 60px);
+  background-color: rgb(161, 187, 235);
 }
